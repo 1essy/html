@@ -56,10 +56,30 @@ main {
 footer {
   height: 50px;
   background-color: #AAAAAA;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
 
+header {
+  width: 100%;
+}
 main {
+  width: 100%;
+  display: block;
+  margin: 50px auto;
+}
+.contents {
+  width: 90%;
+  margin: 20px auto;
+}
+.contents:first-child {
+  margin-top: 0px;
+}
+.contents:last-child {
+  margin: 0 auto;
+  margin-bottom: 0px;
+}
+footer {
   width: 100%;
 }
 }
